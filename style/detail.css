@@ -1,0 +1,127 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10vw;
+}
+
+
+/* header  */
+
+header {
+    background-color: #0B0335;
+}
+
+a.navbar-brand img{
+    border-radius: 6px;
+    height: 7vw;
+}
+
+li.nav-item{
+    font-size: 15px;
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul#link{
+    justify-content: space-around;
+}
+
+/* section 1  */
+.partie1{
+    display: flex;
+    gap: 5vw;
+    margin: 10vw 10vw 3vw;
+}
+
+.partie1 img{
+    height: 48vw;
+    width: 40vw;
+    border-radius: 28px;
+}
+
+.partie1 .details{
+    margin-top: 5vw;
+    line-height: 3vw;
+}
+.description{
+    margin: 0vw 10vw;
+
+}
+ .last{
+    display: flex;
+    margin: 0vw 13vw;
+    gap: 35vw;
+ }
+
+.last .favoris img,.last .commentaire img{
+    vertical-align: middle;
+    height: 5vw;
+    width: 6vw;
+
+}
+
+.last .commentaire .input-group{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 40vw;
+}
+
+/* footer  */
+footer  {
+    background-color: #0B0335;
+    color: white;
+    font-size: 20px;
+    
+}
+
+footer .container .Copyright{
+    margin-top: 50%;
+}
+
+footer .container .partie-2{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+footer .container .partie-2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer .container .partie-2 ul li {
+    list-style-type: none;
+    padding-right: 20px;
+    text-decoration: none;
+
+}
+footer .container .partie-2 ul li a{
+    text-decoration: none;
+
+}
+
+footer .container .partie-2 .reseau-sociaux p{
+    margin-top: 0;
+    margin-bottom: -1rem; 
+    margin-left: 6vw;
+
+
+}
+
+footer .container .partie-2 .reseau-sociaux .icones{
+    margin-top: 1vw;
+
+}
+
+footer .container .partie-2 .reseau-sociaux .icones img{
+    margin: 2vw;
+}
+
+
+
+
+
+
+

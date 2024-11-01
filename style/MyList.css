@@ -1,0 +1,42 @@
+.global {
+    display: flex;
+    margin: 7vw 5vw;
+    height: 57vw;
+
+}
+.global hr{
+    margin: 7vw;
+    height: 59vw;
+    width: 5px;
+    background-color: black;
+}
+
+.global .left h3,.right h3{
+    width: 10vw;
+    font-size: 23px;
+}
+
+
+
+.global .right .movies{
+    margin-top: 9vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2vw;
+}
+.global .right .movies .movie{
+    display: flex;
+    flex-direction: column;
+
+}
+.global .right .movies .movie .pic-movie{
+    border-radius: 20px;
+    height: 27vw;
+    width: 20vw;
+}
+
+.global .right .movies .movie .delete {
+    height: 4vw;
+    width: 4vw;
+    margin-left: 8vw;
+}
